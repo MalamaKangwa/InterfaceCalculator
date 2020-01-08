@@ -13,7 +13,9 @@ namespace InterfaceCalculator
 
         public static double Difference(double a, double b)
         {
-            return a - b;
+            double c = a - b;
+            double d = Math.Round(c, 2);
+            return d;
         }
 
         public static double Difference(double[] arrayA)
