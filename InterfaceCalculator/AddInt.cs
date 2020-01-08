@@ -9,7 +9,7 @@ namespace InterfaceCalculator
     }
 
 
-    public class AddingClass : ISum
+    public class AddingInterface : ISum
     {
         public dynamic result;
 

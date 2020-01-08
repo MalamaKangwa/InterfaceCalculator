@@ -11,8 +11,8 @@ namespace InterfaceCalculator
 
     public class Calculator4 : ISum, IDivide
     {
-        readonly AddingClass adding = new AddingClass();
-        readonly DivClass dividing = new DivClass();
+        readonly AddingInterface adding = new AddingInterface();
+        readonly DivisionInterface dividing = new DivisionInterface();
 
         public dynamic result;
 

@@ -8,7 +8,7 @@ namespace InterfaceCalculator
         public dynamic Divide(dynamic a, dynamic b);
     }
 
-    public class DivClass: IDivide
+    public class DivisionInterface: IDivide
     {
         public dynamic result;
 
