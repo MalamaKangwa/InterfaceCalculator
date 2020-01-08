@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Operations
+namespace InterfaceCalculator
 {
     public class Square
     {
-        public static int Sqaured(int a)
+        public static int Squared(int a)
         {
             return a * a;
         }
