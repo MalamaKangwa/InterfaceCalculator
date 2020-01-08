@@ -18,7 +18,6 @@ namespace InterfaceCalculator
             result = Addition.Sum(a, b);
             return result;
         }
-
     }
 }
 
