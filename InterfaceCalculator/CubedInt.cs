@@ -12,7 +12,7 @@ namespace InterfaceCalculator
     {
         public dynamic result;
 
-        public dynamic CubedValue(dynamic a, dynamic b)
+        public dynamic CubedValue(dynamic a)
         {
             result = (a);
             return result;
