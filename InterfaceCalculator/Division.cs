@@ -29,13 +29,13 @@ namespace InterfaceCalculator
             return d;
         }
 
-        public static int Divide(int[] arrayB)
+        public static int Quotient(int[] arrayB)
         {
             int d = arrayB[0];
 
             for (int i = 1; i < arrayB.Length; i++)
             {
-                d = Divide(d, arrayB[i]);
+                d = Quotient(d, arrayB[i]);
             }
             return d;
         }
