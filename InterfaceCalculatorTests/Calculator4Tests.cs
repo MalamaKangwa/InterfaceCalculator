@@ -10,6 +10,7 @@ namespace InterfaceCalculator.Tests
     public class Calculator4Tests
     {
         
+            /*
             [TestMethod()]
             public void AddTest()
             {
@@ -34,6 +35,7 @@ namespace InterfaceCalculator.Tests
                 Assert.AreEqual(3.02, calculator.result);
 
             }
+
             [TestMethod()]
             public void DivideTest()
             {
@@ -44,6 +46,7 @@ namespace InterfaceCalculator.Tests
                 Assert.AreEqual(2, c);
                 Assert.AreEqual(2, calculator.result);
 
-            }  
+            }
+            */
     }
 }

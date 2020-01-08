@@ -63,7 +63,9 @@ namespace InterfaceCalculator
             return result;
         }
 
-
-
+        public dynamic Multilplication(dynamic a, dynamic b)
+        {
+            return multiplying.Multilplication(a, b);
+        }
     }
 }
