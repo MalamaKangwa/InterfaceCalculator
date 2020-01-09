@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AvgMean\MeanLogic.csproj" />
     <ProjectReference Include="..\Helpers\Helpers.csproj" />
     <ProjectReference Include="..\InterfaceCalculator\InterfaceCalculator.csproj" />
   </ItemGroup>
