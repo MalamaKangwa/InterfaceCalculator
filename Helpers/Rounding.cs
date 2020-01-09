@@ -6,7 +6,7 @@ namespace Helpers
 {
     class Rounding
     {
-        public static dynamic RoundTwoDecimals(dynamic a)
+        public static dynamic RoundTo2(dynamic a)
         {
             return Math.Round(a, 2);
         }
