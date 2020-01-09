@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AvgMean
+namespace MeanLogic
 {
     public interface IAvgMean
     {

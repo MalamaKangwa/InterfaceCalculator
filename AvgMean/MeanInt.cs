@@ -1,7 +1,7 @@
 ﻿using System;
-using AvgMean;
+using MeanLogic;
 
-namespace AvgMean
+namespace MeanLogic
 {
     public class MeanInt: IAvgMean
     {
@@ -9,7 +9,7 @@ namespace AvgMean
 
         public dynamic Mean_Average(dynamic a)
         {
-            result = MeanAvg.Mean(a);
+            result = MeanAvg.Mean_Average(a);
             return result;
         }
         

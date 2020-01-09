@@ -4,9 +4,9 @@ namespace Helpers
 {
     public class ArrayHelper
     {
-        public static int Length(dynamic arrayX)
+        public static int arrayLength(dynamic arrayX)
         {
-            return arrayX.Length();
+            return arrayX.Length;
         }
     }
 }
