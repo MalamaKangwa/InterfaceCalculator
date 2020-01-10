@@ -4,8 +4,14 @@ namespace InterfaceCalculator
 {
     public interface ICalc4
     {
-            public dynamic Add(dynamic a, dynamic b);
-            public dynamic Divide(dynamic a, dynamic b);
+        public dynamic Add(dynamic a, dynamic b);
+        public dynamic Add(dynamic a);
+        public dynamic Sub(dynamic a, dynamic b);
+        public dynamic Sub(dynamic a);
+        public dynamic Divide(dynamic a, dynamic b);
+        public dynamic Divide(dynamic a);
+        public dynamic Multiplication(dynamic a, dynamic b);
+        public dynamic Multiplication(dynamic a);
 
     }
 
@@ -27,21 +33,33 @@ namespace InterfaceCalculator
             return result;
         }
 
+        public dynamic Add(dynamic a)
+        {
+            result = adding.Add(a);
+            return result;
+        }
+
         public dynamic Sub(dynamic a, dynamic b)
         {
             result = subbing.Sub(a, b);
             return result;
         }
 
-        public dynamic Multiplication(dynamic a, dynamic b)
+        public dynamic Sub(dynamic a)
         {
-            result = multiplying.Multilplication (a, b);
+            result = subbing.Sub(a);
             return result;
         }
 
+        
         public dynamic Divide(dynamic a, dynamic b)
         {
             result = dividing.Divide(a, b);
+            return result;
+        }
+        public dynamic Divide(dynamic a)
+        {
+            result = dividing.Divide(a);
             return result;
         }
 
@@ -65,7 +83,16 @@ namespace InterfaceCalculator
 
         public dynamic Multilplication(dynamic a, dynamic b)
         {
-            return multiplying.Multilplication(a, b);
+            result = multiplying.Multilplication(a, b);
+            return result;
         }
+
+        public dynamic Multilplication(dynamic a)
+        {
+            result = multiplying.Multilplication(a);
+            return result;
+
+        }
+
     }
 }

@@ -7,12 +7,7 @@ namespace InterfaceCalculator
     public class Division
     {
 
-        public static int Quotient(int a, int b)
-        {
-            return a / b;
-        }
-
-        public static double Quotient(double a, double b)
+        public static dynamic Quotient(dynamic a, dynamic b)
         {
             return a / b;
         }
@@ -25,7 +20,8 @@ namespace InterfaceCalculator
             {
                 c = Quotient(c, a);
             }
-            double d = c * arrayA[0];
+            double d2 = c * arrayA[0];
+            double d = Helpers.Rounding.RoundTo2(d2);
             return d;
         }
 

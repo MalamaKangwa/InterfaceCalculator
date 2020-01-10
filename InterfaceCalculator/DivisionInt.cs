@@ -18,5 +18,10 @@ namespace InterfaceCalculator
             return result;
         }
 
+        public dynamic Divide(dynamic a)
+        {
+            result = Division.Quotient(a);
+            return result;
+        }
     }
 }

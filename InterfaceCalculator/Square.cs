@@ -6,15 +6,9 @@ namespace InterfaceCalculator
 {
     public class Square
     {
-        public static int Squared(int a)
+        public static dynamic Squared(dynamic a)
         {
             return a * a;
         }
-
-        public static double Squared(double a)
-        {
-            return a * a;
-        }
-
     }
 }

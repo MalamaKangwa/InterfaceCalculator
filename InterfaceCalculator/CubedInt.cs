@@ -14,7 +14,7 @@ namespace InterfaceCalculator
 
         public dynamic CubedValue(dynamic a)
         {
-            result = (a);
+            result = Cubed.Cube(a);
             return result;
         }
 
