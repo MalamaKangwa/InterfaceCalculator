@@ -18,18 +18,19 @@ namespace InterfaceCalculator
             return d;
         }
 
-        public static double Difference(double[] arrayA)
+        public static dynamic Difference(dynamic arrayA)
         {
-            double c = arrayA[0];
+            dynamic c = arrayA[0];
 
-            foreach (double a in arrayA)
+            foreach (dynamic a in arrayA)
             {
                 c = Difference(c, a);
             }
-            double d = c + arrayA[0];
+            dynamic d = c + arrayA[0];
             return d;
         }
 
+        /*
         public static int Difference(int[] arrayB)
         {
             int d = arrayB[0];
@@ -41,5 +42,6 @@ namespace InterfaceCalculator
             int e = d + arrayB[0];
             return e;
         }
+        */
     }
 }

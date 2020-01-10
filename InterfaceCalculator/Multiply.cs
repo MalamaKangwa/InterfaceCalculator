@@ -6,12 +6,7 @@ namespace InterfaceCalculator
 {
     public class Multiply
     {
-        public static int Product(int a, int b)
-        {
-            return a * b;
-        }
-
-        public static double Product(double a, double b)
+        public static dynamic Product(dynamic a, dynamic b)
         {
             return a * b;
         }
