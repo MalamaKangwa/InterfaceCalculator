@@ -11,7 +11,7 @@ namespace StandardDev
 
             dynamic theVariance = FindVariance.Variance(arrayA);
             
-            result = Math.Sqrt(theVariance);
+            result = Helpers.Rounding.RoundTo2(Math.Sqrt(theVariance));
             return result;
         }
     }

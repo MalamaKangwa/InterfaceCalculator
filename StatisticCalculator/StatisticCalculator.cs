@@ -4,6 +4,7 @@ using MeanLogic;
 using VarianceLogic;
 using StandardDev;
 
+
 namespace StatisticCalculator
 {
     public class StatisticCalculator : Calculator4, IAvgMean, IVariance, IStandardDev
