@@ -1,7 +1,7 @@
 ﻿using System;
 using InterfaceCalculator;
 using MeanLogic;
-using Variance;
+using VarianceLogic;
 
 namespace StatisticCalculator
 {

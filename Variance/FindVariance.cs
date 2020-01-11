@@ -3,7 +3,7 @@ using MeanLogic;
 using InterfaceCalculator;
 using System.Diagnostics;
 
-namespace Variance
+namespace VarianceLogic
 {
     public class FindVariance
     {
@@ -14,19 +14,16 @@ namespace Variance
             dynamic theMean = MeanAvg.Mean_Average(arrayA);
             dynamic arrayCount_1 = Helpers.ArrayHelper.arrayLength(arrayA) - 1;
 
-            dynamic d = new Array[0];
-            dynamic f = 0.0;
+            dynamic squares = new Array[0];
             dynamic squareSum = 0.0;
-            dynamic c = 0.0;
+            dynamic differences = 0.0;
 
 
             foreach (dynamic a in arrayA) {
-                c = Subtraction.Difference(a, theMean);
-                d = Square.Squared(c);
-                squareSum = (squareSum + d);
+                differences = Subtraction.Difference(a, theMean);
+                squares = Square.Squared(differences);
+                squareSum = (squareSum + squares);
 
-                //squareSum = f + a;
-                //squareSum must be 34
                 Debug.WriteLine("This is the issue");
 
             }

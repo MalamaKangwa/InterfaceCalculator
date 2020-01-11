@@ -8,7 +8,7 @@
     <ProjectReference Include="..\AvgMean\MeanLogic.csproj" />
     <ProjectReference Include="..\Helpers\Helpers.csproj" />
     <ProjectReference Include="..\InterfaceCalculator\InterfaceCalculator.csproj" />
-    <ProjectReference Include="..\Variance\Variance.csproj" />
+    <ProjectReference Include="..\Variance\VarianceLogic.csproj" />
   </ItemGroup>
 
 </Project>
