@@ -3,7 +3,7 @@ using MeanLogic;
 using InterfaceCalculator;
 using System.Diagnostics;
 
-namespace Variance
+namespace VarianceLogic
 {
     public class FindVariance
     {

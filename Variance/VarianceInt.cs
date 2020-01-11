@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Variance
+namespace VarianceLogic
 {
     public interface IVariance
     {
