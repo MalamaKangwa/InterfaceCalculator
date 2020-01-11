@@ -11,6 +11,7 @@ namespace StatisticCalculator.Tests
     {
 
         private readonly double[] arrayX = { 4, 2, 6, 8, 4, 12, 10 };
+        private readonly double[] arrayA = { 8, 10, 14, 9, 12, 7};
 
         [TestMethod()]
         public void Mean_AverageTest()
@@ -20,6 +21,16 @@ namespace StatisticCalculator.Tests
 
             Assert.AreEqual(6.57, finalMean);
         }
+
+        [TestMethod()]
+        public void Variance_Test()
+        {
+            StatisticCalculator StatCalc = new StatisticCalculator();
+            var finalVariance = StatCalc.Variance(arrayA);
+
+            Assert.AreEqual(6.8, finalVariance);
+        }
+
     }
 }
 
