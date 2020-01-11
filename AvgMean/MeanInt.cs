@@ -12,6 +12,5 @@ namespace MeanLogic
             result = MeanAvg.Mean_Average(a);
             return result;
         }
-        
     }
 }
