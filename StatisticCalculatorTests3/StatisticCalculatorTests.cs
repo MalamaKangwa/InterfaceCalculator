@@ -31,6 +31,16 @@ namespace StatisticCalculator.Tests
             Assert.AreEqual(6.8, finalVariance);
         }
 
+
+        [TestMethod()]
+        public void StandardDev_Test()
+        {
+            StatisticCalculator StatCalc = new StatisticCalculator();
+            var finalStandardDev = StatCalc.StandardDeviation(arrayA);
+
+            Assert.AreEqual(2,60, finalStandardDev);
+        }
+
     }
 }
 
