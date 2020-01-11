@@ -38,7 +38,7 @@ namespace StatisticCalculator.Tests
             StatisticCalculator StatCalc = new StatisticCalculator();
             var finalStandardDev = StatCalc.StandardDeviation(arrayA);
 
-            Assert.AreEqual(2,60, finalStandardDev);
+            Assert.AreEqual(2.61, finalStandardDev);
         }
 
     }
