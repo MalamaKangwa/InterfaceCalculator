@@ -12,6 +12,7 @@ namespace StatisticCalculator.Tests
 
         private readonly double[] arrayX = { 4, 2, 6, 8, 4, 12, 10 };
         private readonly double[] arrayA = { 8, 10, 14, 9, 12, 7};
+        private readonly double a = 12;
 
         [TestMethod()]
         public void Mean_AverageTest()
@@ -39,6 +40,15 @@ namespace StatisticCalculator.Tests
             var finalStandardDev = StatCalc.StandardDeviation(arrayA);
 
             Assert.AreEqual(2.61, finalStandardDev);
+        }
+
+        [TestMethod()]
+        public void Z_Score_Test()
+        {
+            StatisticCalculator StatCalc = new StatisticCalculator();
+            var finalZSCore = StatCalc.ZScore(a, arrayA);
+
+            Assert.AreEqual(0.77, finalZSCore);
         }
 
     }
