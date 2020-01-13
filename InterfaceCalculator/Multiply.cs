@@ -20,7 +20,7 @@ namespace InterfaceCalculator
                 c = Product(a, c);
             }
 
-            double d = c / arrayA[0];
+            double d = Helpers.Rounding.RoundTo2(c / arrayA[0]);
             return d;
         }
 

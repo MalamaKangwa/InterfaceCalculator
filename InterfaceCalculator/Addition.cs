@@ -13,7 +13,7 @@ namespace InterfaceCalculator
         
         public static dynamic Sum(dynamic arrayA)
         {
-            dynamic c = 0.0;
+            dynamic c = 0;
 
             foreach (dynamic a in arrayA) 
             {

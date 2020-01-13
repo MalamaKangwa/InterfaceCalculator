@@ -18,5 +18,20 @@ namespace InterfaceCalculator
             double b = Math.Sqrt(a);
             return b;
         }
+
+        
+        public static double[] Root(double[] arrayA) {
+
+            int l = Helpers.ArrayHelper.arrayLength(arrayA);
+            double[] c = new double[l];
+            int i = 0;
+            
+            foreach (double a in arrayA) 
+            {
+                c[i] = Root(a);
+                i++;
+            }
+                return c;
+        }
     }
 }

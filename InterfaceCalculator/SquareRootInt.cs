@@ -17,6 +17,5 @@ namespace InterfaceCalculator
             result = SquareRoot.Root(a);
             return result;
         }
-
     }
 }
