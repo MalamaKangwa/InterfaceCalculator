@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VarianceLogic", "Variance\V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardDev", "StandardDev\StandardDev.csproj", "{23E84EFA-5F45-4531-8393-7683E277B8A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z_Score", "Z_Score\Z_Score.csproj", "{A389CA56-CD96-4EB8-96D2-0E733B5054FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z_Score", "Z_Score\Z_Score.csproj", "{A389CA56-CD96-4EB8-96D2-0E733B5054FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationTests", "OperationTests\OperationTests.csproj", "{D50D5F41-825D-4841-A66A-9320FBB04393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{A389CA56-CD96-4EB8-96D2-0E733B5054FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A389CA56-CD96-4EB8-96D2-0E733B5054FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A389CA56-CD96-4EB8-96D2-0E733B5054FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50D5F41-825D-4841-A66A-9320FBB04393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50D5F41-825D-4841-A66A-9320FBB04393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50D5F41-825D-4841-A66A-9320FBB04393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50D5F41-825D-4841-A66A-9320FBB04393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

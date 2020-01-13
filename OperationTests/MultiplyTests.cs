@@ -18,49 +18,29 @@ namespace InterfaceCalculator.Tests
         [TestMethod()]
         public void ProductTest()
         {
-            Calculator4 calculator = new Calculator4();
-
-            int c = calculator.Multilplication(a, b);
-
+            int c = Multiply.Product(a, b);
             Assert.AreEqual(200, c);
-            Assert.AreEqual(200, calculator.result);
-
         }
 
         [TestMethod()]
         public void ProductDoubleTest()
         {
-            Calculator4 calculator = new Calculator4();
-
-            double a = calculator.Multilplication(c, d);
-
+            double a = Multiply.Product(c, d);
             Assert.AreEqual(3.75, a);
-            Assert.AreEqual(3.75, calculator.result);
-
         }
 
         [TestMethod()]
         public void ProductArrayTest()
         {
-            Calculator4 calculator = new Calculator4();
-
-            int c = calculator.Multilplication(arrayB);
-
+            int c = Multiply.Product(arrayB);
             Assert.AreEqual(24, c);
-            Assert.AreEqual(24, calculator.result);
-
         }
 
         [TestMethod()]
         public void ProductDoubleArrayTest()
         {
-            Calculator4 calculator = new Calculator4();
-
-            double a = calculator.Multilplication(arrayA);
-
+            double a = Multiply.Product(arrayA);
             Assert.AreEqual(70, a);
-            Assert.AreEqual(70, calculator.result);
-
         }
 
     }
