@@ -163,7 +163,7 @@ namespace InterfaceCalculator.Tests
         [TestMethod()]
         public void SqrRootIntTest()
         {
-            int c = calculator.SqrRoot(h);
+            dynamic c = calculator.SqrRoot(h);
             Assert.AreEqual(12, calculator.result);
         }
 
@@ -172,6 +172,18 @@ namespace InterfaceCalculator.Tests
         {
             double c = calculator.SqrRoot(i);
             Assert.AreEqual(1.5, calculator.result);
+        }
+
+        [TestMethod()]
+        public void SqrRootArrayTest()
+        {
+            double[] x = { 1.41, 1.73, 2 };
+            double[] c = calculator.SqrRoot(arrayF);
+            for (int i = 0; i < c.Length; i++)
+            {
+                Assert.AreEqual(x[i], c[i]);
+            }
+
         }
 
         [TestMethod()]
